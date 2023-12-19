@@ -142,7 +142,7 @@ bool Game::InitResources()
 
     toggle_info_->LoadFromText(renderer_, font_, "Press 'i' to toggle info", text_color);
     info_->LoadFromText(renderer_, font_, "Arrows - move Space - shoot", text_color, 200);
-    game_over_info_->LoadFromText(renderer_, font_, "R.I.P. BOZO.            Press 'r' to restart.", text_color, 300);
+    game_over_info_->LoadFromText(renderer_, font_, "Game Over!.            Press 'r' to restart.", text_color, 300);
 
 	return true;
 }
