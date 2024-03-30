@@ -159,9 +159,9 @@ void Player::HandleCollision()
 				game_->UpdateLivesText();
 
 				if (asteroid->type_ != AsteroidType::SMALL)
-			    {
-			        asteroid->Split();
-			    }
+				{
+			        	asteroid->Split();
+				}
 
 			    return;
 			}
